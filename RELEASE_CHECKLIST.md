@@ -3,6 +3,7 @@
 ## ✅ Pre-Release Checklist (COMPLETED)
 
 ### Repository Setup
+
 - [x] MIT License added
 - [x] Comprehensive README with badges
 - [x] Contributing guidelines
@@ -13,6 +14,7 @@
 - [x] GitHub Actions workflow for testing
 
 ### Code Quality
+
 - [x] All personal paths sanitized
 - [x] Configuration files genericized
 - [x] Test suite working
@@ -21,6 +23,7 @@
 - [x] Version file created (v1.0.0)
 
 ### Security & Privacy
+
 - [x] No hardcoded secrets or personal info
 - [x] Local-first design (no external API calls)
 - [x] Privacy considerations documented
@@ -55,7 +58,7 @@ git push -u origin main
 
 ## 📝 Release Notes Template
 
-```markdown
+````markdown
 # GPT Gulp v1.0.0 - Initial Release
 
 🎉 **Welcome to GPT Gulp!** A comprehensive AI conversation archive system that captures, processes, and organizes conversations from multiple AI platforms.
@@ -63,6 +66,7 @@ git push -u origin main
 ## 🚀 What's New
 
 ### Core Features
+
 - **Multi-platform capture**: VS Code AI assistants, browser platforms (Claude.ai, ChatGPT, Gemini, Perplexity)
 - **Intelligent processing**: Auto-summarization, topic detection, smart tagging
 - **Obsidian integration**: Structured markdown export with metadata
@@ -71,6 +75,7 @@ git push -u origin main
 - **Cross-platform**: Works on macOS, Linux, and Windows
 
 ### Key Benefits
+
 - 🔒 **Privacy-first**: All data stored locally
 - 🤖 **AI-powered**: Intelligent conversation analysis
 - 📝 **Knowledge management**: Seamless Obsidian workflow
@@ -87,6 +92,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ./run.sh test
 ```
+````
 
 ## 🎯 What's Next
 
@@ -103,6 +109,7 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 ---
 
 **Full Changelog**: https://github.com/MarkOpalski/gpt-gulp/commits/v1.0.0
+
 ```
 
 ## 🌟 Community Engagement
@@ -115,13 +122,15 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ### Social Media Template
 ```
-🎉 Just released GPT Gulp v1.0.0! 
+
+🎉 Just released GPT Gulp v1.0.0!
 
 🤖 Automatically archive & organize ALL your AI conversations from VS Code, Claude, ChatGPT, Gemini & more into Obsidian
 
 ✨ Features:
+
 - Privacy-first (local storage)
-- AI-powered summarization  
+- AI-powered summarization
 - Smart tagging & categorization
 - Obsidian integration
 
@@ -129,6 +138,7 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 https://github.com/MarkOpalski/gpt-gulp
 
 #AI #OpenSource #Obsidian #ProductivityTools #KnowledgeManagement
+
 ```
 
 ## ✅ Ready for Release!
@@ -140,3 +150,4 @@ GPT Gulp is now ready for open source release with:
 - Community-friendly guidelines
 - Comprehensive testing
 - Clear installation process
+```
