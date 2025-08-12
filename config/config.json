@@ -1,0 +1,62 @@
+{
+  "obsidian": {
+    "vault_path": "/path/to/your/obsidian/vault",
+    "ai_conversations_folder": "AI-Conversations",
+    "daily_notes_folder": "Daily Notes",
+    "templates_folder": "Templates"
+  },
+  "platforms": {
+    "vscode": {
+      "enabled": true,
+      "capture_method": "file_watcher",
+      "conversation_patterns": ["copilot", "claude", "github-copilot"]
+    },
+    "claude_ai": {
+      "enabled": true,
+      "capture_method": "browser_extension",
+      "url_patterns": ["claude.ai"]
+    },
+    "chatgpt": {
+      "enabled": true,
+      "capture_method": "browser_extension",
+      "url_patterns": ["chat.openai.com"]
+    },
+    "gemini": {
+      "enabled": true,
+      "capture_method": "browser_extension",
+      "url_patterns": ["gemini.google.com"]
+    },
+    "perplexity": {
+      "enabled": true,
+      "capture_method": "browser_extension",
+      "url_patterns": ["perplexity.ai"]
+    }
+  },
+  "processing": {
+    "summarization": {
+      "enabled": true,
+      "min_conversation_length": 100,
+      "summary_style": "bullet_points"
+    },
+    "categorization": {
+      "enabled": true,
+      "auto_tags": true,
+      "project_detection": true
+    },
+    "deduplication": {
+      "enabled": true,
+      "similarity_threshold": 0.8
+    }
+  },
+  "output": {
+    "format": "markdown",
+    "filename_pattern": "{date}_{platform}_{topic}",
+    "include_metadata": true,
+    "auto_sync": true
+  },
+  "sync": {
+    "interval_minutes": 30,
+    "auto_start": true,
+    "backup_enabled": true
+  }
+}
