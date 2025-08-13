@@ -12,6 +12,12 @@ from datetime import datetime
 from storage.conversation_storage import ConversationStorage
 from processors.conversation_processor import ConversationProcessor
 
+import sys
+if sys.platform == "win32":
+    import os
+    os.system('chcp 65001')
+    sys.stdout.reconfigure(encoding='utf-8')
+
 async def test_system():
     """Test the GPT Gulp system"""
     print("🧪 Testing GPT Gulp System...")
