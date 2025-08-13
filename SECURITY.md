@@ -14,7 +14,7 @@ We take the security of GPT Gulp seriously. If you believe you have found a secu
 
 **Please do not report security vulnerabilities through public GitHub issues.**
 
-Instead, please send an email to [security@markopalski.com] with the following information:
+Instead, please send an email to [security@github.com] with the following information:
 
 - Type of issue (e.g. buffer overflow, SQL injection, cross-site scripting, etc.)
 - Full paths of source file(s) related to the manifestation of the issue
